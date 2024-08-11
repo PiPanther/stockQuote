@@ -38,6 +38,7 @@ dependencies:
   flutter_riverpod: ^2.5.1
   shared_preferences: ^2.3.1
   http: ^1.2.2
+  syncfusion_flutter_charts: ^26.2.8
   
 
 dev_dependencies:
@@ -63,7 +64,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+      - assets/bg.gif
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
